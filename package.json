@@ -1,0 +1,29 @@
+{
+  "name": "util-mkdirs",
+  "version": "1.0.0",
+  "description": "mkdirs recursively and asynchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha -r chai/register-expect",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YxxY/mkdirs.git"
+  },
+  "keywords": [
+    "util",
+    "mkdirs",
+    "mkdir",
+    "directory"
+  ],
+  "author": "yxxy",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.4.2",
+    "nyc": "^11.1.0",
+    "shelljs": "^0.7.8"
+  }
+}
