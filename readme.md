@@ -4,7 +4,7 @@ make directory recursively and asynchronously in node.js
 # Example
 ## example.js
 ```js
-var mkdirs = require('utils-mkdirs')
+var mkdirs = require('util-mkdirs')
 
 mkdirs('/path/to/dir', (err, fp)=>{
     if(err){
@@ -26,10 +26,10 @@ mkdirs('./path/to/dir', (err, fp)=>{
 ```
 # Usage
 ## install
-    npm i utils-mkdirs --save
+    npm i util-mkdirs --save
 
 ## import
-    var mkdirs = require('utils-mkdirs')
+    var mkdirs = require('util-mkdirs')
 
 ## arguments
     mkdirs(dirpath [,mode] [,callback])
