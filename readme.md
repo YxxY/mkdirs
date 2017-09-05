@@ -26,7 +26,7 @@ mkdirs('./path/to/dir', (err, fp)=>{
 ```
 # Usage
 ## install
-    npm i https://github.com/YxxY/mkdirs.git --save
+    npm i utils-mkdirs --save
 
 ## import
     var mkdirs = require('utils-mkdirs')
