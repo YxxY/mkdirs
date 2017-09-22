@@ -1,5 +1,7 @@
+[![npm](https://img.shields.io/npm/dt/express.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
+![](https://img.shields.io/badge/coverage-100%25-brightgreen.svg?style=plastic)
 # mkdirs
-make directory recursively and asynchronously in node.js
+a lightweight package to make directory recursively and asynchronously in node.js
 
 # Example
 ## example.js
