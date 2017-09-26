@@ -23,8 +23,8 @@
  */
 
 
-const fs = require('fs')
-const path = require('path')
+var fs = require('fs')
+var path = require('path')
 
 module.exports = mkdirs
 
@@ -47,11 +47,11 @@ function mkdirs(dirpath, mode, callback){
     }
     cb = cb? cb: new Function()
 
-    fs.stat(dirpath, (err, stat)=>{
+    fs.stat(dirpath, function(err, stat){
         if(err) {
-            mkdirs(path.dirname(dirpath), ()=>{
+            mkdirs(path.dirname(dirpath), function(){
                 try{
-                    fs.mkdir(dirpath, cmode, (err)=>{
+                    fs.mkdir(dirpath, cmode, function(err){
                         if(err)
                             return cb(err)
                         cb(null, dirpath)
