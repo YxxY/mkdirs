@@ -1,7 +1,8 @@
-[![npm](https://img.shields.io/npm/v/util-mkdirs.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
-[![npm](https://img.shields.io/npm/dt/util-mkdirs.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
-[![Travis](https://img.shields.io/travis/YxxY/mkdirs.svg?style=plastic)](https://www.travis-ci.org/YxxY/mkdirs)
-[![Coveralls](https://img.shields.io/coveralls/YxxY/mkdirs.svg?style=plastic)](https://coveralls.io/github/YxxY/mkdirs)
+[![npm](https://img.shields.io/npm/v/util-mkdirs.svg)](https://www.npmjs.com/package/util-mkdirs)
+[![npm](https://img.shields.io/npm/dt/util-mkdirs.svg)](https://www.npmjs.com/package/util-mkdirs)
+[![Travis](https://img.shields.io/travis/YxxY/mkdirs.svg?label=linux)](https://www.travis-ci.org/YxxY/mkdirs)
+[![AppVeyor](https://img.shields.io/appveyor/ci/YxxY/mkdirs.svg?label=windows)](https://ci.appveyor.com/project/YxxY/mkdirs)
+[![Coveralls](https://img.shields.io/coveralls/YxxY/mkdirs.svg)](https://coveralls.io/github/YxxY/mkdirs)
 
 # mkdirs
 a lightweight package to make directory recursively and asynchronously in node.js
@@ -44,8 +45,13 @@ mkdirs('./path/to/dir', (err, fp)=>{
 - callback: [options] {function} a function with two paras: `err`,`fp`. if everything is fine, `err` will be `null` and `fp` refers to the dirpath you created.
 
 # Test
+    npm install
     npm test
 
 # Tips
 make sure you have the permission to create the aimed directory. Once the directory exist already, nothing will happen.
+
+## License
+  [MIT](LICENSE)
+
 
