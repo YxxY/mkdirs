@@ -5,7 +5,7 @@
 [![Coveralls](https://img.shields.io/coveralls/YxxY/mkdirs.svg)](https://coveralls.io/github/YxxY/mkdirs)
 
 # mkdirs
-a lightweight package to make directory recursively and asynchronously in node.js
+a lightweight package making directory recursively and asynchronously in node.js
 
 # Example
 ## example.js
