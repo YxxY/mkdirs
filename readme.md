@@ -1,6 +1,7 @@
-[![npm](https://img.shields.io/npm/dt/express.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
-[![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=plastic)](https://img.shields.io/travis/YxxY/mkdirs.svg)
-![](https://img.shields.io/badge/coverage-100%25-brightgreen.svg?style=plastic)
+[![npm](https://img.shields.io/npm/v/util-mkdirs.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
+[![npm](https://img.shields.io/npm/dt/util-mkdirs.svg?style=plastic)](https://www.npmjs.com/package/util-mkdirs)
+[![Travis](https://img.shields.io/travis/YxxY/mkdirs.svg?style=plastic)](https://www.travis-ci.org/YxxY/mkdirs)
+[![Coveralls](https://img.shields.io/coveralls/YxxY/mkdirs.svg?style=plastic)](https://coveralls.io/github/YxxY/mkdirs)
 
 # mkdirs
 a lightweight package to make directory recursively and asynchronously in node.js
