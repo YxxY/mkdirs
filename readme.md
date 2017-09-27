@@ -9,7 +9,7 @@ a lightweight package to make directory recursively and asynchronously in node.j
 ## example.js
 ```js
 var mkdirs = require('util-mkdirs')
-
+//absolute path
 mkdirs('/path/to/dir', (err, fp)=>{
     if(err){
         console.log(err)
@@ -19,6 +19,7 @@ mkdirs('/path/to/dir', (err, fp)=>{
     //do something else
 })
 
+//relative path
 mkdirs('./path/to/dir', (err, fp)=>{
     if(err){
         console.log(err)
@@ -39,11 +40,11 @@ mkdirs('./path/to/dir', (err, fp)=>{
     mkdirs(dirpath [,mode] [,callback])
 - dirpath: [required] {string|buffer} relative or absolute path 
 - mode: [options]  {string|number} default 777 which will finally convert to an oct number
-- callback: [options] {function} a function with two paras: `err`,`fp`. if everything is find. `err` will be `null` and `fp` refers to the dirpath you created.
+- callback: [options] {function} a function with two paras: `err`,`fp`. if everything is fine, `err` will be `null` and `fp` refers to the dirpath you created.
 
 # Test
     npm test
 
 # Tips
-make sure you have the permission to create the aimed directory. Once the directory exist already, nothing will happend.
+make sure you have the permission to create the aimed directory. Once the directory exist already, nothing will happen.
 
